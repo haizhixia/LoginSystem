@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>ユーザ作成</title>
+        <link rel="stylesheet" href="css/registerstyle.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>ユーザ作成</h1>
+            <form action="welcome.html" method="post"><!--文本输入框-->
+                <div class="content">
+                    <label for="id">ユーザID:</label>
+                    <input type="text" id="id" required>
+                </div>
+                <br>
+
+                <div class="content">
+                    <label for="password">パスワード:</label>
+                    <input type="password" id="password" required>
+                </div>
+                <br>
+
+                <div class="content">
+                    <label for="confirm_password">確認パスワード:</label>
+                    <input type="password" id="confirm_password" required>
+                </div>
+                <br>
+
+                <div class="content">
+                    <label for="name">ユーザ名:</label>
+                    <input type="text" id="name" required>
+                </div>
+                <br>
+
+                <div class="content">
+                    <label for="gender">性别:</label>
+                    <div class="gender-options">
+                        <label class="gender-option">
+                            <input type="radio" name="gender" value="male">
+                            <span>男</span>
+                        </label>
+                        <label class="gender-option">
+                            <input type="radio" name="gender" value="female">
+                            <span>女</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="content">
+                    <label for="date">生年月日:</label>
+                    <input type="date" id="date" required>
+                </div>
+                <br>
+
+                <div class="content">
+                    <label for="tel">連絡先:</label>
+                    <input type="text" id="tel" required>
+                </div>
+                <br>
+
+                <div class="content">
+                    <label for="address">住所:</label>
+                    <input type="text" id="address" required>
+                </div>
+                <br>
+
+                <div class="button-group">
+                    <button1><type="submit">登録</button1>
+                    <button2><type="reset">クリア</button2>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>

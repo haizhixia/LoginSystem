@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, sans-serif;
+    background:azure;                         /* 背景 */
+    justify-content: center;                    /* 水平居中 */
+    align-items: center;                        /* 垂直居中 */
+    height: 100vh;                              /* 高度 */
+    margin: 0;                                  
+    line-height: 1.6;
+    display: flex;
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;                         /* 边框 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);    /* 阴影 */
+    width: 100%;                                
+    max-width: 400px;
+}
+
+h1{
+    text-align:center;                          /* 对齐 */
+} 
+
+.content{
+    display: flex;                              /* 对齐 */
+    text-align:center;                          /* 垂直居中 */            
+}
+
+.content label{
+    width: 120px;
+}
+
+.content input {
+    flex:1;
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* 性别选项容器 */
+.gender-options{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 8px 0;
+    align-items: center;
+}
+
+/* 每个性别选项 */
+.gender-option{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.gender-option input[type="radio"]{
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.gender-option input[type="radio"]:checked {
+        accent-color: #4CAF50;
+}
+
+.button-group {
+        display: flex;
+        justify-content: space-between;         /* 按钮并列 */
+        margin-top: 20px;
+}
+
+button1 {                                       /* 按钮设置 */
+    display:block;
+    margin:0 auto;
+    width: 20%;                                 /* 调整为合适的宽度 */
+    padding: 10px;                              /* 填充 */
+    background-color: rgb(226, 226, 237);     /* 背景颜色 */
+    border: 2px solid gray;                   /* 边框设置 */
+    border-radius: 4px;                         /* 设置圆角边框 */
+    color:rgb(8, 8, 8);                       /* 文字颜色 */
+    font-size: 16px;                            /* 按钮大小 */
+    cursor: pointer;                            /* 显示样式:可点击/不可点击 */
+    transition:all 0.4s;                        /* 悬停效应时间 */
+}
+
+button1:hover{                                  /* 悬停设置 */
+    background-color:pink;
+    color:black;
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.24); /* 悬停阴影 */
+}
+
+button2 {                                       /* 按钮设置 */
+    display:block;
+    margin:0 auto;
+    width: 20%;                                 /* 调整为合适的宽度 */
+    padding: 10px;                              /* 填充 */
+    background-color: rgb(226, 226, 237);     /* 背景颜色 */
+    border: 2px solid gray;                   /* 边框设置 */
+    border-radius: 4px;                         /* 设置圆角边框 */
+    color:rgb(8, 8, 8);                       /* 文字颜色 */
+    font-size: 16px;                            /* 按钮大小 */
+    cursor: pointer;                            /* 显示样式:可点击/不可点击 */
+    transition:all 0.4s;                        /* 悬停效应时间 */
+}
+
+button2:hover{                                  /* 悬停设置 */
+    background-color:pink;
+    color:black;
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.24); /* 悬停阴影 */
+}
+
+p{
+    text-align:center;
+}

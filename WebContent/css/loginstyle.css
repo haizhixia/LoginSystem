@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, sans-serif;
+    background:azure;                           /* 背景 */
+    justify-content: center;                    /* 水平居中 */
+    align-items: center;                        /* 垂直居中 */
+    height: 100vh;                              /* 高度 */
+    margin: 0;                                  
+}
+
+.container{
+    background:white;
+    height:40vh;
+    margin:200px 400px;                         /* 外边距 */
+}
+
+h1{
+    text-align:center;                          /* 文本对齐 */
+} 
+
+.content{
+    text-align:center;
+}
+
+button {                                        /* 按钮设置 */
+    display:block;
+    margin:0 auto;
+    width: 30%;                                 /* 调整为合适的宽度 */
+    padding: 10px;                              /* 填充 */
+    background-color: blue;                     /* 背景颜色 */
+    border: 2px solid gray;                     /* 边框设置 */
+    border-radius: 4px;                         /* 设置圆角边框 */
+    color:white;                                /* 文字颜色 */
+    font-size: 16px;                            /* 按钮大小 */
+    cursor: pointer;                            /* 显示样式:可点击/不可点击 */
+    transition:all 0.4s;                        /* 悬停效应时间 */
+}
+
+button:hover{                                   /* 悬停设置 */
+    background-color:pink;
+    color:black;
+    box-shadow:0 5px 10px 0 rgba(0,0,0,0.24);   /* 悬停阴影 */
+}
+
+p{
+    text-align:center;
+}
